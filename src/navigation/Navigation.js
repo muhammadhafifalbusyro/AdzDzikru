@@ -60,7 +60,7 @@ function Navigation() {
       <Stack.Navigator
         screenOptions={{
           headerShown: false,
-          animationEnable: false,
+          animationEnabled: false,
         }}>
         <Stack.Screen name="SplashScreen" component={SplashScreen} />
         <Stack.Screen name="MainTab" component={MainTab} />
